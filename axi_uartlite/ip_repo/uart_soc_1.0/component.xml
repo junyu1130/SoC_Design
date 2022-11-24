@@ -293,7 +293,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>8c8ea89a</spirit:value>
+            <spirit:value>3b5e634d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -312,7 +312,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>8c8ea89a</spirit:value>
+            <spirit:value>3b5e634d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -731,15 +731,16 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogsynthesis_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>src/fifo_256x8/fifo_256x8.xci</spirit:name>
+        <spirit:name>hdl/fifo_256x8.xci</spirit:name>
         <spirit:userFileType>xci</spirit:userFileType>
+        <spirit:userFileType>CELL_NAME_uart_soc_v1_0_S00_AXI_inst/uart_rx_fifo</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/clk_gen.v</spirit:name>
+        <spirit:name>hdl/clk_gen.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/uart_rx.v</spirit:name>
+        <spirit:name>hdl/uart_rx.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -747,7 +748,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/uart_tx.v</spirit:name>
+        <spirit:name>hdl/uart_tx.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -769,15 +770,16 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>src/fifo_256x8/fifo_256x8.xci</spirit:name>
+        <spirit:name>hdl/fifo_256x8.xci</spirit:name>
         <spirit:userFileType>xci</spirit:userFileType>
+        <spirit:userFileType>CELL_NAME_uart_soc_v1_0_S00_AXI_inst/uart_rx_fifo</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/clk_gen.v</spirit:name>
+        <spirit:name>hdl/clk_gen.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/uart_rx.v</spirit:name>
+        <spirit:name>hdl/uart_rx.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -785,7 +787,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/uart_tx.v</spirit:name>
+        <spirit:name>hdl/uart_tx.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -852,7 +854,7 @@
       </spirit:file>
     </spirit:fileSet>
   </spirit:fileSets>
-  <spirit:description>AXI Lite UART</spirit:description>
+  <spirit:description>AXI-Lite UART</spirit:description>
   <spirit:parameters>
     <spirit:parameter>
       <spirit:name>C_S00_AXI_DATA_WIDTH</spirit:name>
@@ -923,13 +925,13 @@
         <xilinx:xpmLibrary>XPM_MEMORY</xilinx:xpmLibrary>
       </xilinx:xpmLibraries>
       <xilinx:coreRevision>2</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2022-11-12T12:45:17Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2022-11-23T16:41:00Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2022.1</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="68217cf6"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="1f9bd527"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="88c43454"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="8924133f"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="6992ea72"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="c47b9853"/>

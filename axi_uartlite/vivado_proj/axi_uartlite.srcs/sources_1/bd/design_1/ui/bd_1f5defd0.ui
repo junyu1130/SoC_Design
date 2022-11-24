@@ -1,33 +1,33 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.526646",
-   "Default View_TopLeft":"-110,-811",
+   "Default View_ScaleFactor":"1.85799",
+   "Default View_TopLeft":"-111,-127",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
 #  -string -flagsOSRD
 preplace port csky_jtag -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
-preplace port usb_uart -pg 1 -lvl 5 -x 1380 -y 270 -defaultsOSRD
+preplace port usb_uart -pg 1 -lvl 5 -x 1130 -y 250 -defaultsOSRD
 preplace port port-id_resetn -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
 preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
-preplace inst CK807_axi_wrap0_0 -pg 1 -lvl 1 -x 420 -y 80 -defaultsOSRD
-preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -x 1010 -y 110 -defaultsOSRD
-preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 4 -x 1260 -y 110 -defaultsOSRD
-preplace inst axi_smc -pg 1 -lvl 2 -x 710 -y 100 -defaultsOSRD
-preplace inst uart_soc_0 -pg 1 -lvl 3 -x 1010 -y 270 -defaultsOSRD
-preplace netloc pad_cpu_aresetn_0_1 1 0 3 20 160 560 180 870
-preplace netloc pll_core_aclk_0_1 1 0 3 30 0 560 20 860
+preplace inst CK807_axi_wrap0_0 -pg 1 -lvl 1 -x 170 -y 80 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -x 760 -y 110 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 4 -x 1010 -y 110 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 460 -y 100 -defaultsOSRD
+preplace inst uart_soc_0 -pg 1 -lvl 3 -x 760 -y 250 -defaultsOSRD
+preplace netloc pad_cpu_aresetn_0_1 1 0 3 30 170 320 190 620
+preplace netloc pll_core_aclk_0_1 1 0 3 20 160 310 180 610
 preplace netloc CK807_axi_wrap0_0_CK807_AXI 1 1 1 N 80
 preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 NJ 110
 preplace netloc axi_smc_M00_AXI 1 2 1 N 90
 preplace netloc csky_jtag_0_1 1 0 1 NJ 60
-preplace netloc axi_smc_M01_AXI 1 2 1 850 110n
-preplace netloc uart_soc_0_UART 1 3 2 NJ 270 NJ
-levelinfo -pg 1 0 420 710 1010 1260 1380
-pagesize -pg 1 -db -bbox -sgen -120 -530 1490 530
+preplace netloc axi_smc_M01_AXI 1 2 1 600 110n
+preplace netloc uart_soc_0_UART 1 3 2 NJ 250 NJ
+levelinfo -pg 1 0 170 460 760 1010 1130
+pagesize -pg 1 -db -bbox -sgen -120 0 1240 330
 "
 }
 {
-   "da_axi4_cnt":"4",
+   "da_axi4_cnt":"5",
    "da_board_cnt":"1",
    "da_bram_cntlr_cnt":"1",
    "da_clkrst_cnt":"3"
